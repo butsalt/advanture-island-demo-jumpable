@@ -120,7 +120,7 @@ export const DemoComponent: React.FC<DemoComponentProps> = ({ initialModel }) =>
         <div>
           <label>文本垂直方向位置</label>
           <select
-            value={fontH}
+            value={fontV}
             onChange={e => {
               setFontV(e.target.value as FontV);
             }}
